@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<link rel="shortcut icon" href="IMG/TF.png" >
+<link href="CSS/estilo.css" rel="stylesheet" type="text/css">
+<meta charset="utf-8">
+<title>NEGOCIOS "CHATO"</title>
+	<Script Language="JavaScript">
+    function Fecha() {
+      var hoy = new Date();
+      var m = new Array();
+      var an= hoy.getYear();
+      m[0]="Enero";  m[1]="Febrero";  m[2]="Marzo";
+      m[3]="Abril";   m[4]="Mayo";  m[5]="Junio";
+      m[6]="Julio";    m[7]="Agosto";   m[8]="Septiembre";
+      m[9]="Octubre";   m[10]="Noviembre"; m[11]="Diciembre";
+      document.write(hoy.getDate());
+      document.write(" de ");
+      document.write(m[hoy.getMonth()]);}
+  </Script>
+</head>
+
+<body>
+<div id="fecha"><strong>
+ <script>
+    Fecha();
+  </script></strong> </div>
+<p><center>
+  <p>
+  <h1> NEGOCIOS "EL CHATO"</h1></p>
+  <p><h3>Ofrecemos a nuestros clientes la venta de mercadería en diferentes  variedades al gusto y al pedido del cliente</h3>
+  </p>
+  <p><h2>CATEGORIA</h2>
+  <table >
+    <tbody>
+      <tr>
+        <th width="59" scope="col"><p><div><img src="IMG/25994.jpeg" id="plas" width="479" height="319"/></div></p>
+        <p>
+		<a href="Productos/Plástico.html" target="new"><button><strong>Plástico</strong></button></a> 
+        <th scope="col"><p><img src="IMG/cache_2481976130.jpg" id="elect"  width="527" height="369" /></p>
+        <p>
+			<a href="Productos/Electrodomésticos.html" target="new"><button><strong>Electrodomésticos</strong></button></a> 
+        </p></th>
+      </tr>
+    </tbody>
+  </table>
+<table>
+<tbody>
+	<tr>
+	 <th width="59" scope="col"><p><img src="IMG/dor.jpg" id="dor" width="479" height="319" /></p>
+        <p>
+			<a href="Productos/Dormitorio.html" target="new"><button><strong>Dormitorio</strong></button></a> 
+        </p></th>
+	</tr>
+	</tbody>
+</table>
+
+  <table >
+    <tbody>
+      <tr>
+        <th width="57" scope="col"><p><img src="IMG/Realizo-Todo-Tipo-De-Muebles-Melamine-sala-cuarto-oficina-20190430001912.1353350015.jpg" id="mel" width="579" height="419"/></p>
+        <p>
+			<a href="Productos/Melamina.html" target="new"><button><strong>Melamina</strong></button></a> 
+        </p></th>
+        <th scope="col"><p><img src="IMG/cocina.JPG" id="coc"  width="479" height="352" /></p>
+        <p> <a href="Productos/Cocina.html" target="new">
+          <button><strong>Cocina</strong></button>
+        </a>			</p></th>
+      </tr>
+    </tbody>
+  </table>
+  <p>
+    </p>
+</p>
+</center>
+</p>
+</body>
+</html>
